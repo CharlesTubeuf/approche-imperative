@@ -3,8 +3,7 @@ package fr.declaration.variable;
 public class DeclarationApp {
 
 	public static void main(String[] args) {
-		
-		
+
 		byte varByte = 1;
 		short varShort = 2;
 		int varInt = 3;
@@ -12,14 +11,17 @@ public class DeclarationApp {
 		float varFloat = 5.1f;
 		double varDouble = 6.2d;
 		char varChar = 'a';
-		boolean varBoolean = true; 
+		boolean varBoolean = true;
 		String varString = "Bonjour Richard";
-		
-		System.out.println(varString); // affichage d'une variable 
-		System.out.println("littÈral"); // affichage d'un littÈral  
-		
-		
 
+		System.out.println(varString); // affichage d'une variable
+		System.out.println("litt√©ral"); // affichage d'un litt√©ral
+
+		String randomString = "Voici le r√©sultat d'un calcul : \n 1+5=6";
+		System.out.println(randomString);
+		int a = +2;
+		double v = 057;
+		System.out.println(v);
 	}
 
 }
